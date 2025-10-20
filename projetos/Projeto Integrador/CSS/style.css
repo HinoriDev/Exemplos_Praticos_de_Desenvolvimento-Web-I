@@ -1,0 +1,195 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===================== HEADER ===================== */
+header {
+  background-color: #f2c335;
+  height: 10em;
+  display: flex;
+  justify-content: space-between; /* distribui logo, busca e ícone */
+  align-items: center; /* centraliza verticalmente */
+  padding: 0 2em; /* espaçamento lateral */
+}
+
+/* Logo */
+.logo {
+  height: 200px;
+  width: auto;
+}
+
+/* Ícone do usuário */
+.u-icon {
+  width: 60px;
+  height: 60px;
+  fill: #f28322;
+  border: 3px solid #f28322;
+  border-radius: 50%;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.u-icon:hover {
+  fill: #f82a14;
+  border-color: #f82a14;
+  transform: scale(1.05);
+}
+
+/* ===================== BUSCA ===================== */
+.busca {
+  flex: 1 1;
+  max-width: 600px;
+  margin: 0 2em;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.form-control {
+  flex: 0;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.btn {
+  background-color: #f28322;
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f82a14;
+  transform: scale(1.05);
+}
+
+/* ===================== CARROSSEL ===================== */
+.carrossel {
+  position: relative;
+  width: 80%;              /* ocupa 80% da tela */
+  max-width: 800px;        /* limite máximo */
+  margin: 100px auto;      /* centraliza na página */
+  overflow: hidden;        /* esconde o que sai da borda */
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.fotos {
+  display: flex;
+  width: calc(200%); /* o dobro da largura para permitir looping */
+  animation: deslizar 20s linear infinite; /* move automaticamente */
+}
+
+.fotos img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;      /* deixa redondo */
+  margin: 0 20px;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+/* animação de deslizamento infinito */
+@keyframes deslizar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* move metade, depois reinicia */
+  }
+}
+
+.fotos:hover {
+  animation-play-state: paused;
+}
+
+
+/*===========Card pricipal==========*/
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+/*background-color: #fdf2cb;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 2px 10px #F8D765;*/
+margin: 30px;
+}
+.card-img{
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.card-text{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.card-text h1{
+  font-family: delius;
+  margin-bottom: 0.8em;
+  font-size: 3em;
+}
+.card-text h2{
+  text-align: center;
+  font-size: 1.6em;
+  color: #333;
+margin-bottom: 0.8em;
+}
+.card-text ul {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%; 
+  list-style-position: inside;
+  text-align: center;
+  
+}
+.card-text li {
+  margin-bottom: 8px;
+}
+.card-text p{
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%; 
+  list-style-position: inside;
+  text-align: center;
+}
+.card-button{
+ background-color: #f28322;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f82a14;
+  transform: scale(1.05);
+} 
+.card-text button{
+  align-self: center;
+}

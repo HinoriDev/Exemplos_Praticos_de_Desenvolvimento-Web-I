@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    border-bottom: 1px solid #393474;
+}
+header div{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    padding-top: 3.2em;
+}
+header nav ul li{
+    float: left;
+    margin-right: 0.5em;
+}
+header nav a{
+    text-decoration: none;
+    color: #eee;
+}
+body{
+    padding: 0.5em 1em;
+    background-color: #0C0B1A;
+    color: #eee;
+}
+.limpar{
+    clear: both;
+}
+.mainContent h1{
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+.mainContent{
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+.mainContent p{
+    font-size: 1.2em;
+    width: 70%;
+    margin: 0 auto;
+    color: #888;
+}
+.sectionHome{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid #393474;
+    border-radius: 10px;
+}
+.leftText{
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+.leftText h2{
+    margin-bottom: 1em;
+}
+.leftText p{
+    font-size: 0.9em;
+}
+.rightButtons{
+    width: 50%;
+    float: left;
+}
+.btPq, .btGd{
+    padding-top: 1em;
+    float: left;
+    border: 1px solid #393474;
+    border-radius: 10px;
+    text-align: center;
+    height: 6.5em;    
+}
+.btPq svg, .btGd svg{
+    margin-bottom: 0.5em;
+}
+.btPq{
+    width: 44%;
+    margin-right: 5%;
+}
+.btGd{
+    margin-top: 1em;
+    width: 94%;
+}
+.leftFoot{
+    float: left;
+}
+.rightFoot{
+    float: right;
+}
+.rightFoot ul{
+    list-style: none;
+}
+.rightFoot ul li{
+    float: left;
+    margin-right: 10px;
+}
+footer{
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    height: 2em;
+    border-top: 1px solid #393474;
+}

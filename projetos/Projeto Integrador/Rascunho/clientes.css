@@ -1,0 +1,94 @@
+/* estilo.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+  background: #ff6f61;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img{
+  height: 50px;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+}
+
+h2 {
+    text-align: center;
+    color: #5cb85c; /* Cor tema para títulos */
+}
+
+/* Oculta a área de receitas inicialmente */
+.oculto {
+    display: none; 
+}
+
+#login-area, #receitas-area {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="password"], 
+form input[type="file"],
+form textarea,
+form select {
+    width: calc(100% - 22px); /* 100% menos o padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding e border estão inclusos na largura */
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5cb85c; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}

@@ -1,0 +1,78 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header h2{
+    font-size: 2em;
+    font-weight: bolder;
+    color: #fa0;
+}
+main article h3{
+    font-size: 1.5em;
+    font-style: italic;
+    color: #9c2c2c;
+}
+dt{
+    font-size: 1.2em;
+    font-style: bold;
+    color: #8b0000;
+}
+li{
+    list-style: none;
+}
+aside a{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #F00;
+}
+nav a:visited{
+    color: #70b411;
+}
+nav a:hover{
+    color: #f00;
+}
+nav a{
+    text-decoration: none;
+}
+aside::before{
+    content: open-quote;
+}
+aside::after{
+    content: close-quote;
+}
+.destaque{
+    font-size: 1.05em;
+    color: #F00;
+    text-transform: uppercase;
+}
+#headerXimiraVida{
+    background-color: #0a0;
+}
+#paginaBase{
+    margin: 2em;
+}
+.ditadoXimira{
+    font-style: italic;
+    color: #155277;
+    width: 25em;
+    margin: 0 auto;
+    text-align: center;
+}
+.conteudo{
+  padding: 1.5em 2em;
+  /*
+  poderia ser: 
+  padding-top: 1.5em;
+  padding-right: 2em;
+  padding-bottom: 1.5em;
+  padding-left: 2em;
+  */
+}
+.artigo{
+  border: 2px solid #ccc;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+  box-shadow: 4px 8px 2px #000;
+}
+.artigo h2{
+  margin-top: 0.2em;
+}

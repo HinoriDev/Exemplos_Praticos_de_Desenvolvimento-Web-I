@@ -1,0 +1,11 @@
+.element{
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+}
+.corRed{
+  background-color: red;
+}
+.corBlue{
+  background-color: blue;
+}

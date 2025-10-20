@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Calculadora simples</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="#">
+            <label for="v1">Valor 1:</label>
+            <input type="text" id="v1" name="v1">
+            <br>
+            <label for="v2">Valor 2:</label>
+            <input type="text" id="v2" name="v2">
+            <br>
+            <label for="op">Operação:</label>
+            <input name="op" type="radio" value="+">+</input>
+            <input name="op" type="radio" value="-">-</input>
+            <input name="op" type="radio" value="*">*</input>
+            <input name="op" type="radio" value="/">/</input>
+            <br>
+            <input type="button" value="Calcular" id="btnClicar">
+        </form>
+        <div id="resultFinal"></div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

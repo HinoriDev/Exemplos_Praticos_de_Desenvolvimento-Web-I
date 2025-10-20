@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Portal de Receitas</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    </head>
+    <body>
+      <!--=====CABEÇALHO=====-->
+      <header>
+        <img src="imagens/Logo/Azul e Dourado Ícone de Livro Educação Logotipo.jpg" alt="Logo o site"> <!--Imagem do logo principal da pagina-->
+        <!--====BARRA DE NAVEGAÇÃO====-->
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li> <!--link para retonar a pagina inicial-->
+            <li><a href="HTML/receitas.html">Receitas</a></li> <!--link para a pagina e receitas-->
+            <li><a href="HTML/clientes.html">Clientes</a></li> <!--link para a area de clientes-->
+            <li><a href="HTML/contatos.html">Contatos</a></li> <!--link para a area de clientes-->
+          </ul>
+        </nav>
+      </header>
+      <div class="banner"></div>
+
+      <section class="destaques">
+        <h2>Destaques da Semana</h2>
+        <div class="card"><img src="" alt=""></div>
+        <div class="card"><img src="" alt=""></div>
+        <div class="card"><img src="" alt=""></div>
+      </section>
+
+      <section class="receitas">
+  <div class="filtro">
+    <input type="text" id="buscar" placeholder="Filtrar por categoria..." onkeyup="filtrar()">
+  </div>
+  <div id="listaReceitas">
+    <div class="card"><img src="bolo.jpg" alt=""><p>Bolo</p></div>
+    <div class="card"><img src="sopa.jpg" alt=""><p>Sopa</p></div>
+    <div class="card"><img src="salada.jpg" alt=""><p>Salada</p></div>
+    <div class="card"><img src="torta.jpg" alt=""><p>Torta</p></div>
+  </div>
+</section>
+
+    <script type="text/javascript" src="JS/script.js"></script>
+    </body>
+</html>
