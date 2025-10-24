@@ -6,22 +6,23 @@ Este repositório reúne minhas atividades, exemplos e projetos desenvolvidos du
 
 - 1°pagina_ximira
   (Primeira aplicação ao uso CSS)
-
-  -flexbox
+  
+- flexbox
 (Aplicação de flexbox)
 
--javas
+- javas
 (Introdutora ao Javascript)
 
--pagina_espetinho
+- pagina_espetinho
 (Introdutoria ao HTML)
 
--pagina_ximira
+- pagina_ximira
 (Projeto em aplicação de todas as ferramentas: Javascript, CSS e HTML)
   
 - Calculadora
   (aplicação ao uso Javascript de operadores)
-exercicios
+  
+- exercicios
   (Exercicios de javascript)
 
 ---
